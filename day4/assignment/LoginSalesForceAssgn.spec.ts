@@ -18,7 +18,7 @@ test("Log in to Salesforce", async () => {
     // Enter Username
     await page.getByLabel('Username').fill('renju.joseph.jose@gmail.com')
     // Enter password
-    await page.locator('#password').fill('Vadakael2015')
+    await page.locator('#password').fill('TBD')
  
  // Find Login element by XPath and click it 
  const loginButton =  page.locator('//*[@id="Login"]'); 
